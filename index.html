@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audrey's Mood Record</title>
+        <link href="Project1.css" type="text/css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+
+    <body>
+        <p class="title_web" ><img src="media/icon-journal.png" width="80" 
+            height="80" align="center" >  Audrey's e-Journal</p>
+        
+        <p class="myaccount"><img src="media/audreyprofile.png" align="center"
+         width="50" height="50"><a href="file:///C:/Users/Audrey%20Trinita%20Dewi/Documents/Programming/Project%20HTML-CSS/Project1.6.html">
+                  audreytrinita</a></p>
+
+        <p class="dayreport">Report today's activities:</p>
+
+        <fieldset>
+            <legend>Today's Record</legend>
+            <label for="today_date">Date: </label>
+            <input type="date" name="todaydate">
+            </br></br>
+            <label for="mood_rate">Rate your mood:</label>
+            <select name="mood">
+                <option name="moodoption" value="perfect">Perfect</option>
+                <option name="moodoption" value="good">Good</option>
+                <option name="moodoption" value="average">Average</option>
+                <option name="moodoption" value="bad">Bad</option>
+            </select>
+            </br>
+            <p>Have you done your works?
+            <input type="radio" name="option" value="yes"/>Yes
+	        <input type="radio" name="option" value="no"/>No
+            </p>
+
+            <p>How well it went according to your plan?</p>
+            <input type="radio" name="donepercent" value="25percent">
+            <label for="25">25%</label>
+            <input type="radio" name="donepercent" value="50percent">
+            <label for="50">50%</label>
+            <input type="radio" name="donepercent" value="75percent">
+            <label for="75">75%</label>
+            <input type="radio" name="donepercent" value="100percent">
+            <label for="100">100%</label>
+            </br></br>
+
+            <form action="file:///C:/Users/Audrey%20Trinita%20Dewi/Documents/Programming/Project%20HTML-CSS/Project1.2.html">
+                <input type="submit" value="Next">
+            </form>
+        </fieldset>
+        </br></br></br></br></br></br></br></br></br>
+        
+        <h3>Suggest & Advice</h3>
+        <label for="today_date">Enter date: </label>
+        <input type="date" name="todaydate">
+        </br>
+        <p>Comment: </p>
+        <textarea name="comment" cols="20" row="40" placeholder="enter comment ..."></textarea>
+        <form action="file:///C:/Users/Audrey%20Trinita%20Dewi/Documents/Programming/Project%20HTML-CSS/Project1.2.html">
+            <input type="submit" value="submit">
+    </body>
+</html>
